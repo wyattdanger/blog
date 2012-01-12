@@ -7,7 +7,9 @@ layout: default
   {% for post in paginator.posts %}
   {% assign content = post.content %}
     <article>
-      {% include article.html %}
+			<div class='padding'>
+				{% include article.html %}
+			</div>
     </article>
   {% endfor %}
   <div class="pagination">
