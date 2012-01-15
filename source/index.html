@@ -12,7 +12,7 @@ layout: default
 			</div>
     </article>
   {% endfor %}
-  <div class="pagination line">
+  <div class="pagination line padding">
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
     {% endif %}
@@ -20,9 +20,9 @@ layout: default
     <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
     {% endif %}
   </div>
-	<div>
+	<div class='padding'>
 		<h1>
-			<a href="/archives">Blog Archives</a>
+			<a class='archive-link' href="/archives">Blog Archives</a>
 		</h1>
 	</div>
 </div>
