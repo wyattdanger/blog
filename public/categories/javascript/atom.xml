@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: javascript | Stephen Wyatt Bush&rsquo;s Blog]]></title>
+  <link href="http://blog.stephenwyattbush.com/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://blog.stephenwyattbush.com/"/>
+  <updated>2012-01-15T16:17:34-05:00</updated>
+  <id>http://blog.stephenwyattbush.com/</id>
+  <author>
+    <name><![CDATA[Stephen Wyatt Bush]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Organizing Page Specific JavaScript]]></title>
+    <link href="http://blog.stephenwyattbush.com/2011/08/22/organizing-page-specific-javascript/"/>
+    <updated>2011-08-22T00:00:00-04:00</updated>
+    <id>http://blog.stephenwyattbush.com/2011/08/22/organizing-page-specific-javascript</id>
+    <content type="html"><![CDATA[<p>I often find myself repeating a JavaScript pattern, where I check for a DOM node&rsquo;s existence and fire a function if it&rsquo;s found. This weekend I put together a tiny jQuery plugin to abstract this pattern away into a more concise, readable format.</p>
+
+<!-- more -->
+
+
+<h3>Big Poppa</h3>
+
+<p>Big Poppa (<a href="https://github.com/wyattdanger/Big-Poppa">Github</a>) aims to simplify this pattern and make page specific JavaScript management a bit easier.</p>
+
+<p><noscript><a href="https://gist.github.com/1163371">Example</a></noscript></p>
+
+<script src="https://gist.github.com/1163371.js"> </script>
+
+
+<p>In each example, Poppa checks for the DOM nodes specified in the key, and passes the matching nodes into the callback function, only if the key was found in the DOM.</p>
+
+<p>Poppa also looks pretty clean in <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a>.
+<noscript><a href="https://gist.github.com/1163444.js">Example</a></noscript></p>
+
+<script src="https://gist.github.com/1163444.js"> </script>
+
+
+<p>Big Poppa is tiny (&lt; 0.2K minified) and available on <a href="https://github.com/wyattdanger/Big-Poppa">Github</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Geocoding With Node.js]]></title>
+    <link href="http://blog.stephenwyattbush.com/2011/07/16/geocoding-with-nodejs/"/>
+    <updated>2011-07-16T00:00:00-04:00</updated>
+    <id>http://blog.stephenwyattbush.com/2011/07/16/geocoding-with-nodejs</id>
+    <content type="html"><![CDATA[<p>Need to make an asynchronous call to Google's geocoding or reverse geocoding service in a Node.js application?  The <a href="https://github.com/wyattdanger/geocoder">Geocoder module</a> makes it simple to fetch geocoordinates based on street addresses, or to fetch localities based on LatLng pairs.</p>
+
+<!-- more -->
+
+
+<p>Adding the module to your project is easy, it is available as a <a href="http://search.npmjs.org/#/geocoder">npm package</a>. Just <code>npm install geocoder</code>. After requiring the module, it exposes two methods: <code>geocode</code> and <code>reverseGeocode</code>.</p>
+
+<p><code>geocode</code> requires two arguments: a location in the form of a String, and a callback function which will accept the geodata returned from Google. The geodata will look like <a href="http://code.google.com/apis/maps/documentation/geocoding/#JSON">this</a>.</p>
+
+<p><code>reverseGeocode</code> requires three arguments: a latitude, longitude, and callback function.</p>
+
+<p>Both methods accept an optional last argument, an options Object which can pass along other Google API parameters, such as <code>sensor</code>, which defaults to false.</p>
+
+<script src="https://gist.github.com/1086532.js" > </script>
+
+
+<p>Of course, feel free to <a href="https://github.com/wyattdanger/geocoder">fork it on Github</a>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Scraping Open Graph Metadata With Node]]></title>
+    <link href="http://blog.stephenwyattbush.com/2011/06/27/scraping-open-graph-metadata-with-node/"/>
+    <updated>2011-06-27T00:00:00-04:00</updated>
+    <id>http://blog.stephenwyattbush.com/2011/06/27/scraping-open-graph-metadata-with-node</id>
+    <content type="html"><![CDATA[<p>At <a href="http://convergese.com/">Converge SE</a> this weekend, I had the opportunity to attend a workshop on programming social web applications taught by Principal Software Enginner at Yahoo, <a href="http://www.jcleblanc.com/">Jonathan LeBlanc</a>.</p>
+
+<p>One thing Jonathan covered was the <a href="http://ogp.me/">Open Graph Protocol</a>. Open Graph makes it easy for any developer to add metadata to their website pages. The data is primarily used control the title, description, image source, and URL to be displayed when their pages are shared on Facebook, but can be used by anybody.</p>
+
+<!-- more -->
+
+
+<p>Jonathan gave us a couple homework assignments during the presentation, one of which was to build an Open Graph metadata parser. Granted, Facebook already provides <a href="https://developers.facebook.com/tools/lint/">one of these</a>, but it proved to be a fun exercise in <a href="http://nodejs.org/">Node.js</a>. Using <a href="http://expressjs.com/">Express</a> I was able to build the parser in half an hour and then deploy to Heroku's new <a href="http://devcenter.heroku.com/articles/cedar">Cedar stack</a> in a few minutes.</p>
+
+<p>The app grabs the URL passed to it, renders the DOM on the server, and extracts the needed meta tags.</p>
+
+<p>The <a href="https://github.com/wyattdanger/og-lookup/">source</a> is available on Github and a <a href="http://og-quickcheck.herokuapp.com/">demo</a> is live on Heroku. Go ahead, give it a shot! I recommend looking up <a href="http://og-quickcheck.herokuapp.com/?url=http%3A%2F%2Fmailchimp.com">MailChimp</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

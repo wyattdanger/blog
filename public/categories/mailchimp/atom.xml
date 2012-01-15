@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mailchimp | Stephen Wyatt Bush&rsquo;s Blog]]></title>
+  <link href="http://blog.stephenwyattbush.com/categories/mailchimp/atom.xml" rel="self"/>
+  <link href="http://blog.stephenwyattbush.com/"/>
+  <updated>2012-01-15T16:17:34-05:00</updated>
+  <id>http://blog.stephenwyattbush.com/</id>
+  <author>
+    <name><![CDATA[Stephen Wyatt Bush]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[DesignLab Blog On Unmatched Style]]></title>
+    <link href="http://blog.stephenwyattbush.com/2010/11/30/designlab-blog-on-unmatched-style/"/>
+    <updated>2010-11-30T00:00:00-05:00</updated>
+    <id>http://blog.stephenwyattbush.com/2010/11/30/designlab-blog-on-unmatched-style</id>
+    <content type="html"><![CDATA[<p>Unmatched Style highlights the <a href="http://designlab.mailchimp.com/">DesignLab blog</a>’s SpaceInvaders design, and finds ASCII art in the source. They did not find the 404, though :)</p>
+
+<p><img src="http://www.unmatchedstyle.com/wp-content/uploads/2010/10/designlabmailchimpcom.jpg" alt="DesignLab Blog Screenshot" /></p>
+
+<p><a href="http://designlab.mailchimp.com/">Visit the DesignLab Blog</a></p>
+]]></content>
+  </entry>
+  
+</feed>

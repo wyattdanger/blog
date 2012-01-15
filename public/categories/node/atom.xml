@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: node | Stephen Wyatt Bush&rsquo;s Blog]]></title>
+  <link href="http://blog.stephenwyattbush.com/categories/node/atom.xml" rel="self"/>
+  <link href="http://blog.stephenwyattbush.com/"/>
+  <updated>2012-01-15T16:17:34-05:00</updated>
+  <id>http://blog.stephenwyattbush.com/</id>
+  <author>
+    <name><![CDATA[Stephen Wyatt Bush]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scraping Open Graph Metadata With Node]]></title>
+    <link href="http://blog.stephenwyattbush.com/2011/06/27/scraping-open-graph-metadata-with-node/"/>
+    <updated>2011-06-27T00:00:00-04:00</updated>
+    <id>http://blog.stephenwyattbush.com/2011/06/27/scraping-open-graph-metadata-with-node</id>
+    <content type="html"><![CDATA[<p>At <a href="http://convergese.com/">Converge SE</a> this weekend, I had the opportunity to attend a workshop on programming social web applications taught by Principal Software Enginner at Yahoo, <a href="http://www.jcleblanc.com/">Jonathan LeBlanc</a>.</p>
+
+<p>One thing Jonathan covered was the <a href="http://ogp.me/">Open Graph Protocol</a>. Open Graph makes it easy for any developer to add metadata to their website pages. The data is primarily used control the title, description, image source, and URL to be displayed when their pages are shared on Facebook, but can be used by anybody.</p>
+
+<!-- more -->
+
+
+<p>Jonathan gave us a couple homework assignments during the presentation, one of which was to build an Open Graph metadata parser. Granted, Facebook already provides <a href="https://developers.facebook.com/tools/lint/">one of these</a>, but it proved to be a fun exercise in <a href="http://nodejs.org/">Node.js</a>. Using <a href="http://expressjs.com/">Express</a> I was able to build the parser in half an hour and then deploy to Heroku's new <a href="http://devcenter.heroku.com/articles/cedar">Cedar stack</a> in a few minutes.</p>
+
+<p>The app grabs the URL passed to it, renders the DOM on the server, and extracts the needed meta tags.</p>
+
+<p>The <a href="https://github.com/wyattdanger/og-lookup/">source</a> is available on Github and a <a href="http://og-quickcheck.herokuapp.com/">demo</a> is live on Heroku. Go ahead, give it a shot! I recommend looking up <a href="http://og-quickcheck.herokuapp.com/?url=http%3A%2F%2Fmailchimp.com">MailChimp</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

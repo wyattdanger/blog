@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: presentation | Stephen Wyatt Bush&rsquo;s Blog]]></title>
+  <link href="http://blog.stephenwyattbush.com/categories/presentation/atom.xml" rel="self"/>
+  <link href="http://blog.stephenwyattbush.com/"/>
+  <updated>2012-01-15T16:17:34-05:00</updated>
+  <id>http://blog.stephenwyattbush.com/</id>
+  <author>
+    <name><![CDATA[Stephen Wyatt Bush]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Experience at Dev[Chatt]]]></title>
+    <link href="http://blog.stephenwyattbush.com/2011/06/07/my-experience-at-devchatt/"/>
+    <updated>2011-06-07T00:00:00-04:00</updated>
+    <id>http://blog.stephenwyattbush.com/2011/06/07/my-experience-at-devchatt</id>
+    <content type="html"><![CDATA[<p>I had the opportunity to present on front-end Web performance optimization at <a href="http://devchatt.org/">DevChatt</a> this past weekend. It was a great small conference, with most panels covering topics related to front-end engineering or infrastructure.</p>
+
+<!-- more -->
+
+
+<p>Picking a topic was hard. This was my first conference speaking opportunity. After considering the work I've focused on in the past year, I decided that performance is something I've learned much about.</p>
+
+<p>My slides are available <a href="http://wyattdanger.com/presentation.html">here</a> in HTML. To build the presentation I used <a href="https://github.com/n1k0/landslide">Landslide</a>, open-source software which parses a Markdown file and turns it into a full-featured HTML5 slideshow.</p>
+
+<h4>Presentation I saw</h4>
+
+<ul>
+<li><a href="http://twitter.com/#!/crimondi">Chris Rimondi</a> on IPV6</li>
+<li><a href="http://www.timmywillison.com/">Timmy Willison</a> of jQuery core on attr/prop in JQuery 1.6</li>
+<li><a href="http://dryan.com">Daniel Ryan</a> on CSS3 <a href="http://dryan.com/css3">(slides)</a></li>
+<li><a href="http://donaldsayers.com/">Donald Sayers</a> on <a href="http://paywallme.heroku.com/">Paywall.me</a></li>
+<li><a href="http://dirolf.com/">Mike Dirolf</a> on <a href="http://www.mongodb.org/">MongoDB</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
