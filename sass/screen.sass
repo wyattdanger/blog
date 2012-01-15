@@ -247,6 +247,8 @@ mark
     .padding
       outline: 1px solid #ccc
       background: #eee
+  ul li
+    margin-left: 0
 
 .lastUnit
   display: table-cell
@@ -309,10 +311,6 @@ header
   font-size: 108%
   font-weight: normal
   font-style: normal
-  text-transform: uppercase
-  color: #333
-  a
-    color: #333
 
 /* Animated width change
 
@@ -361,12 +359,27 @@ time
   margin-bottom: 10px
   display: block
 
+#blog-archives
+  h1
+    font-size: 120%
+
 #archives li
   padding: 0px 5px
+
+.right
+  float: right
 
 .bottom0
   margin-bottom: 0
   padding-bottom: 0
+
+.meta
+  @extend .padding
+  padding-left: 0
+  padding-right: 0
+
+.googleplus-hidden
+  display: none !important
 
 /*		Tablet Layout: 768px.
  *		Gutters: 24px.

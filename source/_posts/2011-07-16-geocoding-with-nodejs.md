@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Geocoding With Node.js
-title: Organizing Page Specific JavaScript
 date: 16/07/2011
 comments: true
 categories: [javascript, jquery]

@@ -7,6 +7,7 @@
 		<section class='unit main'>
 			{{ content | expand_urls: root_url }}
 		</section>
+		{% include sidebar.html %}
 	</div>
   <footer role="contentinfo">{% include footer.html %}</footer>
   {% include after_footer.html %}

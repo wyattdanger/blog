@@ -3,7 +3,7 @@ layout: post
 title: DesignLab Blog On Unmatched Style
 date: 30/11/2010
 comments: true
-categories: [javascript, jquery]
+categories: [mailchimp]
 ---
 Unmatched Style highlights the [DesignLab blog](http://designlab.mailchimp.com/)’s SpaceInvaders design, and finds ASCII art in the source. They did not find the 404, though :)
 

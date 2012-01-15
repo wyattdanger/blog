@@ -12,17 +12,21 @@ layout: default
 			</div>
     </article>
   {% endfor %}
-  <div class="pagination">
+  <div class="pagination line">
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
     {% endif %}
-    <a href="/archives">Blog Archives</a>
     {% if paginator.previous_page %}
     <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
     {% endif %}
   </div>
+	<div>
+		<h1>
+			<a href="/archives">Blog Archives</a>
+		</h1>
+	</div>
 </div>
-<aside class="sidebar">
+<aside>
   {% if site.blog_index_asides.size %}
     {% include_array blog_index_asides %}
   {% else %}
