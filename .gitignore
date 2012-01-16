@@ -12,3 +12,4 @@ vendor
 node_modules
 tmp
 _heroku
+blog
