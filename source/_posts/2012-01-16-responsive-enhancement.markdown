@@ -16,15 +16,6 @@ Remember that HTML is an inherently responsive medium, and that we web designers
 
 Don't make your web designs responsive, keep them responsive.
 
-##### A Note on "Responsive"
-Before we go on about what is "responsive", let's clarify that media queries are only one part of responsive design. 
-
-- A flexible grid.
-- Flexible images.
-- Media queries.
-
-<hr>
-
 ### The browser is always variable.
 
 In the year 2000 in *[The Dao of Web Design](http://www.alistapart.com/articles/dao/)*, John Allsopp wrote:
@@ -35,16 +26,18 @@ Consider the range of devices with a Web browser: desktops, laptops, netbooks, t
 
 Furthermore, bandwidth on mobile devices is limited, 
 
+Viewport, bandwidth, and context are always unknowns.
+
 > We should suggest design rather than control it.
 
 #### Mobile First
 You can't sprinkle media queries onto your existing website like magic dust. You have to shift thinking and design for mobile first. Start with a minimal mobile website and enhance it to the desktop experience.
 
 #### Content First, Not Context First
-Don't assume the user's context. Don't assume all mobile visitors only want to accomplish one specific task.
+Don't assume the user's context. Don't assume all mobile visitors only want to accomplish one specific task. Responsive design can help serve layout optimized for variable viewports, and it can help preserve bandwidth, but it does not solves problems of user context. ...
 
 #### Speaking of Context
-Design so that your users won't need to use [Instapaper](http://www.instapaper.com/) or  [other](http://www.readability.com/) [related](http://www.apple.com/mac/includes/builtin/safari_reader.html) [tools](http://readitlaterlist.com/) to comfortably read your page.
+Web content is no longer confined to web pages. People can [snip up your content](http://www.alistapart.com/articles/orbital-content/) for reading on their own devices with tools like [Instapaper](http://www.instapaper.com/). The success of such tools is an indicator that web designers are missing the mark, and users see designs as obstacles rather than enhancements. Design your pages in such a way that visitors won't feel compelled to read them elsewhere. By designing in a mobile-first way, you can cut down on the clutter and distractions that cause users to need such tools.
 
 #### Overthought Navigation
 Users goals are often overshadowed by bloated navigation. Consider the old school way of designing a web site, beginning with wireframes. The first thing designed is the header and navigation, exhaustively overdesigned and ....
@@ -67,5 +60,4 @@ https://github.com/filamentgroup/Responsive-Images
 http://www.sencha.com/products/io/
 http://adaptive-images.com/
 
-http://fittextjs.com/ for full-width text on all devices.
 
