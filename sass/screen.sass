@@ -390,6 +390,14 @@ time
 .googleplus-hidden
   display: none !important
 
+header nav
+  display: none
+  position: absolute
+  li
+    margin-left: 0
+.mobile
+  display: none
+
 
 /*		Tablet Layout: 768px.
  *		Gutters: 24px.
@@ -415,6 +423,14 @@ time
  *px      68    160    252
 
 @media only screen and (max-width: 767px)
+  .mobile
+    display: block
+  header 
+    margin-bottom: 20px
+    nav
+      display: block
+  hgroup h2
+    display: none
   body
     width: 300px
     padding: 20px 10px 60px
@@ -449,6 +465,8 @@ time
  *px      68    160    252    344    436
 
 @media only screen and (min-width: 480px) and (max-width: 767px)
+  header nav
+    display: block
   body
     width: 436px
     padding: 36px 22px 48px
