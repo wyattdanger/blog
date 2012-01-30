@@ -22,4 +22,5 @@ class SinatraStaticServer < Sinatra::Base
 
 end
 
+use Rack::Deflater
 run SinatraStaticServer
