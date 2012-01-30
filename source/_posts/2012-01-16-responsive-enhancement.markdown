@@ -6,7 +6,7 @@ comments: true
 categories: [css, buildconf, responsive design]
 ---
 
-While in Belfast at [BuildConf](http://2011.buildconf.com), I attended a workshop on Responsive Enhancement taught by [Jeremy Keith](http://adactio.com). 
+While in Belfast at [BuildConf](http://2011.buildconf.com), I attended a workshop taught by [Jeremy Keith](http://adactio.com). 
 
 Forget what you know about web design. From now on, view web design as a union of [responsive design](http://www.alistapart.com/articles/responsive-web-design/) and [progressive enhancement](http://www.alistapart.com/articles/understandingprogressiveenhancement) with a ["mobile first"](http://www.lukew.com/ff/entry.asp?933) approach.
 
