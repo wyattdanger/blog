@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Responsive Enhancement
-date: 2012-01-16 09:51
+date: 2012-02-01 09:51
 comments: true
 categories: [css, buildconf, responsive design]
 ---
