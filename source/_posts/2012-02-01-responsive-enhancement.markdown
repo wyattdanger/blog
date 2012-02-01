@@ -19,11 +19,11 @@ Don't make your web designs responsive, keep them responsive.
 ### Problems With the Old Way
 Consider the old school way of designing a web site, beginning with wireframes. A page is filled with gray boxes, and most content is absent. Navigation is designed in the wireframing stages, often exhaustively overdesigned. The design is framed within a fixed width container, geared for viewing on laptop and desktop computers.
 
-Up until recently it was widely accepted that a website would conform to a set width (960px is a popular example) and not much thought, if any, was given to mobile traffic. Fluid width layouts were possible, but less common. Designers like the control offered by a fixed width layout, but designing for a fixed width layout is much more like designing for print than for the web.
+Up until recently it was widely accepted that websites conform to a set width (960px is a popular example) and not much thought, if any, is given to mobile traffic. Fluid width layouts were possible, but less common. Designers like the control offered by a fixed width layout, but designing for a fixed width layout is much more like designing for print than for the web.
 
 ### The browser is always variable.
 
-In the year 2000 in *[The Dao of Web Design](http://www.alistapart.com/articles/dao/)*, John Allsopp wrote:
+In the year 2000 in *[A Dao of Web Design](http://www.alistapart.com/articles/dao/)*, John Allsopp wrote:
 
 > The web’s greatest strength, I believe, is often seen as a limitation, as a defect. It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.
 
