@@ -6,7 +6,7 @@ comments: true
 categories: [svg, frontend]
 ---
 
-While working on some fun stuff [at work](http://mailchimp.com/b/), I found myself needing to make a sprite full of 50+ icons. Designer [Aaron Robbs](https://twitter.com/#!/aaronrobbs) and I have been wanting to make an icon font for a while now (think [Pictos](http://pictos.cc/)), and I realized that instead of sprites, and icon font might be a better tool for the job at hand. 
+While doing some fun stuff [at work](http://mailchimp.com/b/), I found myself needing to make a sprite for 50+ icons. Designer [Aaron Robbs](https://twitter.com/#!/aaronrobbs) and I have been wanting to make an icon font for a while now (think [Pictos](http://pictos.cc/)), and I realized that instead of sprites, and icon font might be a better tool for the job at hand. 
 
 <!-- more -->
 
