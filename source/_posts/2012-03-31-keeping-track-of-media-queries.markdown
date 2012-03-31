@@ -20,4 +20,4 @@ The [above snippet](https://gist.github.com/2265989) is in SASS, and is also [av
 
 #### Mobile First
 
-It should be noted that the above queries work around a mobile-first approach. It assumes that your base styles will be written for mobile devices, and that you'll progressively enhance from there, remembering that [layout is an enhancement](/2012/02/01/responsive-enhancement).
+It should be noted that the above queries work with a mobile-first approach. It assumes that your base styles will be written for mobile devices, and that you'll progressively enhance from there, remembering that [layout is an enhancement](/2012/02/01/responsive-enhancement).
