@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Demo - Keeping Track Of Media Queries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+      body {
+        font-family: "Helvetica Neue", "Helvetica", Arial;
+        background: #eee;
+        color: #333;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      body::before {
+        font-size: 3rem;
+        content: "< 480px"; }
+      @media only screen and (min-width: 480px) {
+        body::before {
+          content: "480px < 600px"; } }
+      @media only screen and (min-width: 600px) {
+        body::before {
+          content: "600px < 768px"; } }
+      @media only screen and (min-width: 768px) {
+        body::before {
+          content: "768px < 992px"; } }
+      @media only screen and (min-width: 992px) {
+        body::before {
+          content: "992px < 1382px"; } }
+      @media only screen and (min-width: 1382px) {
+        body::before {
+          content: "1382px <"; } }
+    </style>
+  </head>
+  <body>
+    <br/>Resize me, bro.
+  </body>
+</html>
