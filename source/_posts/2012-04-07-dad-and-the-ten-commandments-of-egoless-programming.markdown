@@ -32,12 +32,12 @@ From [The Psychology of Computer Programming](http://www.amazon.com/exec/obidos/
 
 - **The only true authority stems from knowledge, not from position.** Knowledge engenders authority, and authority engenders respect – so if you want respect in an egoless environment, cultivate knowledge.
 
-- **Fight for what you believe, but gracefully accept defeat.** Understand that sometimes your ideas will be overruled. "Even if you are right, don't take revenge or say "I told you so." Never make your dearly departed idea a martyr or rallying cry.
+- **Fight for what you believe, but gracefully accept defeat.** Understand that sometimes your ideas will be overruled. Even if you are right, don't take revenge or say "I told you so." Never make your dearly departed idea a martyr or rallying cry.
 
 - **Don't be "the coder in theh corner."** Don't be the person in the dark office emerging only for soda. The coder in the corner is out of sight, out of touch, and out of control. This person has no voice in an open, collaborative environment. Get involved in conversations, and be a participant in your office community.
 
 - **Critique code instead of people – be kind to the coder, not to the code.** As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.
 
-I keep this list around even today. Sometimes I imagine what other bits of advice he'd give me were he still around. While there's no way I can tell for sure, so long as I follow these guidelines I can be sure he'd be proud.
+I keep this list around even today. It has already helped me be a better programmer. Sometimes I imagine what other bits of advice he'd give me were he still around. While I cannot know, I feel sure he'd be proud so long as I keep these in mind.
 
 For more on Dad, read [Frank Bush's Contributions to the Computing Profession](http://www2.tntech.edu/its/FrankBush/Contributions.asp), compiled by his coworkers at TTU. 
