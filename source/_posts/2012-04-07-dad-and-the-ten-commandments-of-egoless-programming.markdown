@@ -34,7 +34,7 @@ From [The Psychology of Computer Programming](http://www.amazon.com/exec/obidos/
 
 - **Fight for what you believe, but gracefully accept defeat.** Understand that sometimes your ideas will be overruled. Even if you are right, don't take revenge or say "I told you so." Never make your dearly departed idea a martyr or rallying cry.
 
-- **Don't be "the coder in theh corner."** Don't be the person in the dark office emerging only for soda. The coder in the corner is out of sight, out of touch, and out of control. This person has no voice in an open, collaborative environment. Get involved in conversations, and be a participant in your office community.
+- **Don't be "the coder in the corner."** Don't be the person in the dark office emerging only for soda. The coder in the corner is out of sight, out of touch, and out of control. This person has no voice in an open, collaborative environment. Get involved in conversations, and be a participant in your office community.
 
 - **Critique code instead of people – be kind to the coder, not to the code.** As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.
 
