@@ -3,22 +3,20 @@ layout: post
 title: "Comparing Prototypal and Classical Inheritance"
 date: 2012-05-01 16:16
 comments: true
-categories: 
+categories: javascript, programming
 ---
 
-JavaScript uses prototypal inheritance. Programmers familiar with the classical model of inheritance are often confused by JavaScript's inheritance when they first encounter it.
-
-To help illustrate the differences in the two models, I'll implement what might appear to be the same thing in both Ruby and JavaScript. 
+Programmers familiar with the classic model of inheritance are often confused by Javascript's prototypal inheritance when they first encounter it. To help illustrate the differences in the two models, I'll implement what might appear to be the same thing in both Ruby and JavaScript. 
 
 <!-- more -->
 
-In each example, I'll define a class `Foo` and a class `Bar` which inherits from `Foo` (it's worth noting that in JavaScript I am defining constructor functions, not classes. JavaScript has no class system.) Then I'll create two instances of `Bar`. With the first instance, `baz`, I will
+In each example, I'll define a class `Foo` and a class `Bar` which inherits from `Foo`. It's worth noting that in JavaScript I am defining constructor functions, not classes (JavaScript has no class system). Then I'll create two instances of `Bar`. With the first instance, `baz`, I will
 
 1. push the value `1` into its `a` property (an array)
 - directly modify its `a` property to be the array `[1,2,3]`
 - delete its `a` property entirely
 
-After each step I will print out the state of each instance, and some drastic differences in the two programs will become apparent.
+After each step I will print out the state of each instance, at which point some drastic differences in the two programs will become apparent.
 
 First, here's a simple example of class inheritance and instantiation in Ruby:
 {% gist 2570770 inheritance-demo.rb %}
@@ -26,7 +24,7 @@ First, here's a simple example of class inheritance and instantiation in Ruby:
 And here's what running that Ruby script outputs:
 {% gist 2570770 ruby-output.txt %}
 
-This makes sense. I create two instances, `baz` and `qux`. When I  modify properties on `baz`, properties on `qux` are not changed.
+I create two instances, `baz` and `qux`. When I  modify properties on `baz`, properties on `qux` are not changed. This makes sense. 
 
 Here is a comparable JavaScript program:
 {% gist 2570770 inheritance-demo.js %}
@@ -71,3 +69,4 @@ I hope this helps shed some light on what makes prototypal inheritance different
 - [Prototype-based Programming](http://en.wikipedia.org/wiki/Prototype-based_programming)
 - [How to Node - Prototypal Inheritance](http://howtonode.org/prototypical-inheritance)
 - [What the Fuck is Prototypal Inheritance](http://oscargodson.com/posts/what-the-fuck-is-prototypal-inheritance.html)
+- [MDN](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/prototype)
