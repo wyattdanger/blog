@@ -6,7 +6,7 @@ comments: true
 categories: javascript, programming
 ---
 
-Programmers familiar with the classic model of inheritance are often confused by Javascript's prototypal inheritance when they first encounter it. To help illustrate the differences in the two models, I'll implement what might appear to be the same thing in both Ruby and JavaScript. 
+Programmers familiar with the classic model of inheritance are often confused by JavaScript's prototypal inheritance when they first encounter it. To help illustrate the differences in the two models, I'll implement what might appear to be the same thing in both Ruby and JavaScript. 
 
 <!-- more -->
 
@@ -41,15 +41,15 @@ So, this raises a few questions:
 - Subsequently, why does `baz.a = [1,2,3];` not modify `qux.a`? 
 - And why is `baz.a` still `1` after `delete baz.a;`?
 
-Well, `baz` and `qux` do not have their own property `a`. Instead, they share `a` from their prototype. When I call `baz.a`, JavaScript first looks at `baz` for `a`, then it begins traversing the prototype chain upwards looking for a property `a` until it finds one, or returns `undefined` if it cannot. In the next step, I directly define a property `a` on `baz` which equals `[1,2,3]`. Then when I try to access it, JavaScript finds the property directly on `baz` and returns it. Then,
+Well, `baz` and `qux` do not have their own property `a`. Instead, they share `a` from their prototype. When I call `baz.a`, JavaScript first looks at `baz` for `a`, then it begins traversing the prototype chain upwards looking for a property `a` until it finds one, or returns `undefined` if it cannot. In the next step, I directly define a property `a` on `baz` which equals `[1,2,3]`. When I try to access it, JavaScript finds the property directly on `baz` and returns it. Then,
 after `delete baz.a`, when `baz.a` is called again, JavaScript walks back up the prototype chain and finds the shared `a` on the prototype. 
 
-*Unlike a class, which is like a blueprint for an instance, and object's prototype is itself another object.*
+*Unlike a class, which is like a blueprint for an instance, an object's prototype is itself another object.*
 
 <figure>
 <img src="/images/prototypal-console.png" />
 <figcaption>
-In the image above, baz and qux are created in the web inspector console and modified. Each instance has a visible `__proto__` reference pointing to their prototype, an instance of `Foo`. The `a` property is visible on the prototype, and after it is visible on `baz` after it is directly defined as `[1,2,3]`.
+In the image above, baz and qux are created in the web inspector console and modified. Each instance has a visible `__proto__` reference pointing to its prototype, an instance of `Foo`. The `a` property is visible on the prototype, and it is visible on `baz` after it is directly defined as `[1,2,3]`.
 </figcaption>
 
 A prototype, being just an object, can be accessed and modified at runtime. 
