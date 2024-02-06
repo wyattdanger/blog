@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+ruby '2.7.7'
 
 group :development do
   gem 'rake'
